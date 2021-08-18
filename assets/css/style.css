@@ -9,7 +9,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* header style begin */
+/* HEADER STYLE BEGIN */
 
 header {
     padding: 20px 35px;
@@ -66,13 +66,16 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
+
+/* HEADER STYLE END */
+
+/* STYLE ALL SECTION TAGS */
+
 section {
     padding: 60px;
 }
 
-/* header style end */
-
-/* Hero Style Start */
+/* HERO STYLE START */
 
 .hero {
     background-image: url("../images/hero-bg.jpeg");
@@ -156,9 +159,9 @@ section {
     background-color: #39a6b2;
 }
 
-/* Hero Style End */
+/* HERO STYLE END */
 
-/* what we do section */
+/* WHAT WE DO STYLE */
 
 .intro p {
     line-height: 1.7;
@@ -169,7 +172,9 @@ section {
     text-align: center;
 }
 
-/* combined declarations section */ 
+/* WHAT WE DO STYLE END */
+
+/* COMBINED DECLARATIONS SECTION START */ 
 
 .section-title {
     font-size: 48px;
@@ -287,7 +292,9 @@ section {
     display: flex;
 }
 
-/* reach out styles start */
+/* COMBINED DECLARATIONS SECTION END */
+
+/* REACH OUT STYLE START */
 
 .contact {
     background: #024e76;
@@ -299,6 +306,17 @@ section {
 
 .contact-info iframe {
     height: 400px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
 }
 
 .contact-info div {
@@ -355,9 +373,9 @@ section {
     color: #fce138;
 }
 
-/* reach out styles end */
+/* REACH OUT STYLE END */
 
-/* footer style begin */
+/* FOOTER STYLE START */
 
 footer {
     background: #fce138;
@@ -383,7 +401,7 @@ footer a {
     color: #024e76;
 }
 
-/* footer style end */
+/* FOOTER STYLE END */
 
 /* UTILITIES */
 
